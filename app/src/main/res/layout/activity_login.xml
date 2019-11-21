@@ -5,10 +5,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background=""
+    android:background="@color/colorPrimary"
     tools:context=".LoginActivity">
 
-
+<ImageView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:src="@drawable/flower"/>
 
     <EditText
         android:layout_width="match_parent"
